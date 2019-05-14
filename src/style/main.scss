@@ -15,4 +15,6 @@ html {
 
 
 @import 'layout';
-@import '/headernavbar';
+@import 'headernavbar';
+@import 'auth/signin.scss';
+@import 'auth/signup.scss';

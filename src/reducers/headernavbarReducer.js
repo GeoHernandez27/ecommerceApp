@@ -5,8 +5,22 @@ import {
 } from '../actions/types';
 
 const INITIAL_STATE = {
-    headerLinks: [],
-    navbarLinks: [] 
+    headerLinks: [
+        {
+            title: 'sdf'
+        },
+        {
+            title: 'asdfasdfs'
+        }
+    ],
+    navbarLinks: [
+        {
+            title: 'account'
+        },
+        {
+            title: 'purchases'
+        }
+    ] 
 
 }
 

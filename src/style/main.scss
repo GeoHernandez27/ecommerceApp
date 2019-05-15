@@ -1,9 +1,9 @@
+    
 
 
 html {
     font-size: 62.5%;
 }
-
 
 *,
 *::after,
@@ -13,6 +13,7 @@ html {
     box-sizing: inherit;
 }
 
+
 body {
     font-family: "Open Sans";
     color: #808080;
@@ -20,7 +21,10 @@ body {
 
 @import '/layout';
 @import 'headernavbar';
-@import 'auth/signin';
-@import 'auth/signup';
 @import '/page-title';
 @import '/form-fields';
+@import '/details';
+
+@import 'auth/signin';
+@import 'auth/signup';
+

@@ -25,9 +25,14 @@ body {
 @import '/form-fields';
 @import '/details';
 
+//AUTH
 @import 'auth/signin';
 @import 'auth/signup';
 
+//ACCOUNT
 @import 'account/account';
 @import 'account/purchase-history';
-@import 'account/account-information'
+@import 'account/account-information';
+
+//SHOP
+@import 'shop/shop';

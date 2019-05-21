@@ -58,8 +58,21 @@
 }
 
 .cart-footer {
+  display: grid;
+  grid-template-rows: [s] 1fr [e];
+  grid-template-columns: 50px [checkout-s] 1fr [checkout-e sub-s] 1fr [sub-e] 27px [price-s] 46px [price-e] 31px;
+  align-items: center;
+  justify-self: end;
+
+  height: 113px;
+  background-color: #1a1a1a;
+
+  & > * {
+    grid-row: s/e;
+  }
   &__checkout {
     display: grid;
+    grid-column: checkout-s/checkout-e;
     justify-items: center;
     align-items: center;
     height: 38px;
@@ -79,5 +92,19 @@
     &:active {
       transform: scale(0.95);
     }
+  }
+  &__subtotal {
+    justify-self: end;
+    font-size: 18px;
+    grid-column: sub-s/sub-e;
+    
+  }
+
+  &__price {
+    grid-column: price-s/price-e;
+    justify-self: start;
+    font-size: 18px;
+    color: white;
+    font-weight: 600;
   }
 }

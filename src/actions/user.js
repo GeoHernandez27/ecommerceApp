@@ -30,7 +30,8 @@ export function fetchCartProducts() {
           description:
             "Lorem ipsum dolor sit amet, sit et vel porttitor ullamcorper. Odio tellus. Quis est nibh penatibus, euismod sed lacus fringilla non. A pulvinar duis magna justo risus, nunc turpis orci gravida nunc non, libero vitae egestas sed etiam, mi auctor accumsan at donec rhoncus diam.",
           price: 1.99,
-          belongsTo: [0, 1]
+          belongsTo: [0, 1],
+          imageUrl: 'https://via.placeholder.com/80x80'
         },
         quantity: 2
       },
@@ -42,7 +43,8 @@ export function fetchCartProducts() {
           description:
             "Lacus habitant suspendisse sodales, ut sodales ipsum fusce, ut cras elit dignissim, tortor risus pede lorem maecenas, recusandae volutpat. Risus fermentum. Aenean in magna tellus, nulla quis deserunt et risus quam, nunc wisi ligula semper, mauris pellentesque.",
           price: 2.99,
-          belongsTo: [0, 6]
+          belongsTo: [0, 6],
+          imageUrl: 'https://via.placeholder.com/80x80'
         },
         quantity: 3
       }

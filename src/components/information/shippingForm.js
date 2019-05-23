@@ -28,6 +28,14 @@ class ShippingForm extends Component {
           component={FormInput}
         />
         <Field
+          className="shipping-form__city"
+          type="city"
+          title="City"
+          placeholder="City"
+          name="city"
+          component={FormInput}
+        />
+        <Field
           className="shipping-form__state"
           type="state"
           title="State"
@@ -36,11 +44,11 @@ class ShippingForm extends Component {
           component={FormInput}
         />
         <Field
-          className="shipping-form__zip"
-          type="zip"
-          title="Zip"
-          placeholder="Zip"
-          name="zip"
+          className="shipping-form__zipcode"
+          type="zipcode"
+          title="Zipcode"
+          placeholder="Zipcode"
+          name="zipcode"
           component={FormInput}
         />
 

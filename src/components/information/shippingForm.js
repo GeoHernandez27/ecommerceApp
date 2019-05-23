@@ -56,7 +56,7 @@ class ShippingForm extends Component {
         <div className="shipping-form__line" />
         <Field
           className="shipping-form__use-this-address"
-          onClick={() => history.push("/informatin/payement")}
+          onClick={() => history.push("/information/payment")}
           type="submit"
           title="Use This Address"
           name="use-this-address"
@@ -71,7 +71,7 @@ class ShippingForm extends Component {
           short={true}
           component={FormButton}
         />
-        <OrderSummary className='shipping-form__summary' />
+        <OrderSummary className='shipping-form__order-summary' />
       </form>
     );
   }
